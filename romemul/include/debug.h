@@ -9,6 +9,7 @@
  */
 #if defined(_DEBUG) && (_DEBUG != 0)
 #include <string.h>
+#include <stdio.h>
 #define DPRINTF(fmt, ...)                                                                  \
     do                                                                                     \
     {                                                                                      \

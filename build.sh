@@ -58,6 +58,8 @@ echo "Board type: $BOARD_TYPE"
 export BUILD_TYPE=${2:-release}
 echo "Build type: $BUILD_TYPE"
 
+export BUILD_TYPE=dev
+
 # If the build type is release, set DEBUG_MODE environment variable to 0
 # Otherwise set it to 1
 if [ "$BUILD_TYPE" = "release" ]; then

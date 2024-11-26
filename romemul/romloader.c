@@ -416,6 +416,11 @@ static void __not_in_flash_func(handle_protocol_command)(const TransmissionProto
         DPRINTF("Command CLEAN_START (%i) received: %d\n", protocol->command_id, protocol->payload_size);
         clean_start = true;
         break;
+    case FTPSERVER:
+        // Start the FTP server
+        DPRINTF("Command FTPSERVER (%i) received: %d\n", protocol->command_id, protocol->payload_size);
+        test();
+        break;
 
     // ... handle other commands
     default:

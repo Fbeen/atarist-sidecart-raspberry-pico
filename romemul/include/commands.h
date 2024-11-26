@@ -38,6 +38,8 @@
 #define CLEAN_START 24          // Start the configurator when the app starts
 #define BOOT_GEMDRIVE 25        // Boot the GEMDRIVE emulator
 #define REBOOT 26               // Reboot the device
+#define FTPSERVER 30            // Start the FTP server
+
 
 // APP_ROMEMUL commands
 // No commands
